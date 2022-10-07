@@ -1,0 +1,14 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  .navContainer {
+    display: flex;
+    gap: 50px;
+  }
+  .name {
+    margin: 0;
+  }
+}
