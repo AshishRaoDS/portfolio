@@ -1,13 +1,28 @@
 .headerContainer {
   display: flex;
-  justify-content: space-between;
-  margin: 20px 30px;
-  display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  background-color: #d53737;
+  padding: 20px 30px;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+
   .navContainer {
     display: flex;
     gap: 50px;
+
+    a {
+      font-size: 25px;
+      font-weight: 600;
+
+      &:hover {
+        color: white;
+        text-decoration: underline;
+      }
+    }
   }
+
   .name {
     margin: 0;
   }
