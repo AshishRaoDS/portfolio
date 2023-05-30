@@ -1,8 +1,8 @@
-import React from 'react'
-import styles from "../styles/Header.module.scss"
-import Poppins from "@next/font/google"
+import React from 'react';
+import styles from "../styles/Header.module.scss";
+import Poppins from "@next/font/google";
 
-type Props = {}
+type Props = {};
 
 // const poppins = Poppins({
 //   weight: []
@@ -11,7 +11,7 @@ type Props = {}
 const Header = (props: Props) => {
   return (
     <div className={styles.headerContainer}>
-      {/* <h2 className={styles.name}>Ashish Rao</h2> */}
+      <h2 className={styles.name}>Ashish Rao</h2>
       <nav className={styles.navContainer}>
         <a href="#">Home</a>
         <a href="#">About</a>
@@ -20,7 +20,7 @@ const Header = (props: Props) => {
       </nav>
 
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
