@@ -15,6 +15,7 @@ const Home: NextPage = () => {
       <Header />
       <p>Welcome to my porfolio website</p>
       <p>Here I will try and give you a good insight as to what I know and what I am capable of.</p>
+      <p>I am in no mood to work on anything today so hence I am going to go with pushing this line so that I can keep up my streak. See You tomorrow</p>
     </div>
   );
 };
